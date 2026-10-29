@@ -1,0 +1,747 @@
+{
+  "exploratory": true,
+  "signature": "bad1ec6fff193999",
+  "planned_n": 12,
+  "completed_pairs": 12,
+  "text_limit": 4000,
+  "sample_ids": [
+    "8497db9767455c05514c35f40808af82b2b6f5132f9d3dfd9fb5dff402740176",
+    "374abbff9977b31b7f9266faa4ecc6daec0160af65f87c2badd0bc8e8cc82ee3",
+    "f59d8ea481fb1f54315481b2b154a20e0a2858731dd12b5cbb1ac3b37b3e16c3",
+    "839ef69209d04b3df6c70e700de41adf30c078a1e84cf37e7ee052134bc5bdd1",
+    "683d78cbfa9756bcf0ce97de1a58c45774b12854448e7adb724805ae20044794",
+    "f38dd3108e0ac76cb64be17dc5f2f4a68cdb6fbc9701ee269874d2249954770d",
+    "4f427043c3107fcc4b58b27bc6a18808d48aad64071ad3ec76102a899ddad9ef",
+    "da7d2496923fd4a68ca74165aaac8f5d88ac3e341041a6f467bbaaf9ea7c06b7",
+    "3974243fcf463f32413bf6b2c18d33a5c7c8171f560b0263d2802de084dcac6e",
+    "0c63a3d85581dcacae07cf9fe8ea5739a665ddb3d5c9c358e1bb4cae834a0050",
+    "72a25ad1f7ab90927291520b4b9d5b44fc22581030ebf7388da8ffce72ff1f8a",
+    "02cf427a54e67b1c2fc369b99578fb8c73f5681882f08dde97fa1b5da9abeed4"
+  ],
+  "errors": [],
+  "metrics": {
+    "without_memory": {
+      "n_total": 12,
+      "n_answered": 8,
+      "n_abstained": 4,
+      "coverage": 0.6666666666666666,
+      "accuracy_answered": 0.375,
+      "balanced_accuracy_answered": 0.3666666666666667,
+      "wilson_95_answered": [
+        0.13684428582359742,
+        0.6942576053973727
+      ],
+      "correct_over_all": 0.25,
+      "up_outcomes": 7
+    },
+    "with_memory": {
+      "n_total": 12,
+      "n_answered": 10,
+      "n_abstained": 2,
+      "coverage": 0.8333333333333334,
+      "accuracy_answered": 0.4,
+      "balanced_accuracy_answered": 0.375,
+      "wilson_95_answered": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "correct_over_all": 0.3333333333333333,
+      "up_outcomes": 7
+    }
+  },
+  "paired_metrics": {
+    "without_memory": {
+      "n_total": 12,
+      "n_answered": 8,
+      "n_abstained": 4,
+      "coverage": 0.6666666666666666,
+      "accuracy_answered": 0.375,
+      "balanced_accuracy_answered": 0.3666666666666667,
+      "wilson_95_answered": [
+        0.13684428582359742,
+        0.6942576053973727
+      ],
+      "correct_over_all": 0.25,
+      "up_outcomes": 7
+    },
+    "with_memory": {
+      "n_total": 12,
+      "n_answered": 10,
+      "n_abstained": 2,
+      "coverage": 0.8333333333333334,
+      "accuracy_answered": 0.4,
+      "balanced_accuracy_answered": 0.375,
+      "wilson_95_answered": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "correct_over_all": 0.3333333333333333,
+      "up_outcomes": 7
+    }
+  },
+  "both_answered_metrics": {
+    "without_memory": {
+      "n_total": 8,
+      "n_answered": 8,
+      "n_abstained": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.375,
+      "balanced_accuracy_answered": 0.3666666666666667,
+      "wilson_95_answered": [
+        0.13684428582359742,
+        0.6942576053973727
+      ],
+      "correct_over_all": 0.375,
+      "up_outcomes": 5
+    },
+    "with_memory": {
+      "n_total": 8,
+      "n_answered": 8,
+      "n_abstained": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.375,
+      "balanced_accuracy_answered": 0.3666666666666667,
+      "wilson_95_answered": [
+        0.13684428582359742,
+        0.6942576053973727
+      ],
+      "correct_over_all": 0.375,
+      "up_outcomes": 5
+    }
+  },
+  "always_up_planned": {
+    "n_total": 12,
+    "n_answered": 12,
+    "n_abstained": 0,
+    "coverage": 1.0,
+    "accuracy_answered": 0.5833333333333334,
+    "balanced_accuracy_answered": 0.5,
+    "wilson_95_answered": [
+      0.31951131254954973,
+      0.8067396863412435
+    ],
+    "correct_over_all": 0.5833333333333334,
+    "up_outcomes": 7
+  },
+  "always_up_paired": {
+    "n_total": 12,
+    "n_answered": 12,
+    "n_abstained": 0,
+    "coverage": 1.0,
+    "accuracy_answered": 0.5833333333333334,
+    "balanced_accuracy_answered": 0.5,
+    "wilson_95_answered": [
+      0.31951131254954973,
+      0.8067396863412435
+    ],
+    "correct_over_all": 0.5833333333333334,
+    "up_outcomes": 7
+  },
+  "always_up_both_answered": {
+    "n_total": 8,
+    "n_answered": 8,
+    "n_abstained": 0,
+    "coverage": 1.0,
+    "accuracy_answered": 0.625,
+    "balanced_accuracy_answered": 0.5,
+    "wilson_95_answered": [
+      0.30574239460262737,
+      0.8631557141764026
+    ],
+    "correct_over_all": 0.625,
+    "up_outcomes": 5
+  },
+  "results": [
+    {
+      "id": "8497db9767455c05514c35f40808af82b2b6f5132f9d3dfd9fb5dff402740176",
+      "arm": "without_memory",
+      "source": "bcb",
+      "cutoff": "2017-12-08T02:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:42.949070+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.55,
+          "down": 0.16,
+          "abstain": 0.29
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "8497db9767455c05514c35f40808af82b2b6f5132f9d3dfd9fb5dff402740176",
+      "arm": "with_memory",
+      "source": "bcb",
+      "cutoff": "2017-12-08T02:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:43.414548+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.5,
+          "down": 0.22,
+          "abstain": 0.28
+        },
+        "basis": "analogies"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "374abbff9977b31b7f9266faa4ecc6daec0160af65f87c2badd0bc8e8cc82ee3",
+      "arm": "without_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2017-12-15T02:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:43.754934+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.19,
+          "down": 0.14,
+          "abstain": 0.67
+        },
+        "basis": "insufficient"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "374abbff9977b31b7f9266faa4ecc6daec0160af65f87c2badd0bc8e8cc82ee3",
+      "arm": "with_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2017-12-15T02:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:44.179032+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.31,
+          "down": 0.28,
+          "abstain": 0.41
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "f59d8ea481fb1f54315481b2b154a20e0a2858731dd12b5cbb1ac3b37b3e16c3",
+      "arm": "without_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2018-01-16T02:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:44.495768+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.41,
+          "down": 0.1,
+          "abstain": 0.49
+        },
+        "basis": "insufficient"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "f59d8ea481fb1f54315481b2b154a20e0a2858731dd12b5cbb1ac3b37b3e16c3",
+      "arm": "with_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2018-01-16T02:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:44.928786+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.49,
+          "down": 0.13,
+          "abstain": 0.38
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "839ef69209d04b3df6c70e700de41adf30c078a1e84cf37e7ee052134bc5bdd1",
+      "arm": "without_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2018-12-07T02:00:00+00:00",
+      "outcome": 0,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:45.308446+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.31,
+          "down": 0.21,
+          "abstain": 0.48
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "839ef69209d04b3df6c70e700de41adf30c078a1e84cf37e7ee052134bc5bdd1",
+      "arm": "with_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2018-12-07T02:00:00+00:00",
+      "outcome": 0,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:45.565419+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.34,
+          "down": 0.31,
+          "abstain": 0.35
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "683d78cbfa9756bcf0ce97de1a58c45774b12854448e7adb724805ae20044794",
+      "arm": "without_memory",
+      "source": "bcb",
+      "cutoff": "2019-09-20T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:45.760631+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.51,
+          "down": 0.14,
+          "abstain": 0.35
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "683d78cbfa9756bcf0ce97de1a58c45774b12854448e7adb724805ae20044794",
+      "arm": "with_memory",
+      "source": "bcb",
+      "cutoff": "2019-09-20T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:46.261027+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.54,
+          "down": 0.19,
+          "abstain": 0.27
+        },
+        "basis": "analogies"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "f38dd3108e0ac76cb64be17dc5f2f4a68cdb6fbc9701ee269874d2249954770d",
+      "arm": "without_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2019-12-13T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:46.645158+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.59,
+          "down": 0.08,
+          "abstain": 0.33
+        },
+        "basis": "insufficient"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "f38dd3108e0ac76cb64be17dc5f2f4a68cdb6fbc9701ee269874d2249954770d",
+      "arm": "with_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2019-12-13T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:47.085423+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.67,
+          "down": 0.1,
+          "abstain": 0.23
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "4f427043c3107fcc4b58b27bc6a18808d48aad64071ad3ec76102a899ddad9ef",
+      "arm": "without_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2020-08-04T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:47.442807+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.12,
+          "down": 0.48,
+          "abstain": 0.4
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "4f427043c3107fcc4b58b27bc6a18808d48aad64071ad3ec76102a899ddad9ef",
+      "arm": "with_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2020-08-04T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:47.909491+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.14,
+          "down": 0.46,
+          "abstain": 0.4
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "da7d2496923fd4a68ca74165aaac8f5d88ac3e341041a6f467bbaaf9ea7c06b7",
+      "arm": "without_memory",
+      "source": "bcb",
+      "cutoff": "2021-06-18T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:48.237306+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.18,
+          "down": 0.47,
+          "abstain": 0.35
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "da7d2496923fd4a68ca74165aaac8f5d88ac3e341041a6f467bbaaf9ea7c06b7",
+      "arm": "with_memory",
+      "source": "bcb",
+      "cutoff": "2021-06-18T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:48.520645+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.25,
+          "down": 0.5,
+          "abstain": 0.25
+        },
+        "basis": "analogies"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "3974243fcf463f32413bf6b2c18d33a5c7c8171f560b0263d2802de084dcac6e",
+      "arm": "without_memory",
+      "source": "bcb",
+      "cutoff": "2023-03-24T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:48.861572+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.11,
+          "down": 0.65,
+          "abstain": 0.24
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "3974243fcf463f32413bf6b2c18d33a5c7c8171f560b0263d2802de084dcac6e",
+      "arm": "with_memory",
+      "source": "bcb",
+      "cutoff": "2023-03-24T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:49.333073+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.1,
+          "down": 0.66,
+          "abstain": 0.24
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "0c63a3d85581dcacae07cf9fe8ea5739a665ddb3d5c9c358e1bb4cae834a0050",
+      "arm": "without_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2023-08-04T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:49.664477+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.44,
+          "down": 0.1,
+          "abstain": 0.46
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "0c63a3d85581dcacae07cf9fe8ea5739a665ddb3d5c9c358e1bb4cae834a0050",
+      "arm": "with_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2023-08-04T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:50.052063+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.39999999999999997,
+          "down": 0.22,
+          "abstain": 0.38
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "72a25ad1f7ab90927291520b4b9d5b44fc22581030ebf7388da8ffce72ff1f8a",
+      "arm": "without_memory",
+      "source": "bcb",
+      "cutoff": "2024-12-13T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:50.388547+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.05,
+          "down": 0.76,
+          "abstain": 0.19
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "72a25ad1f7ab90927291520b4b9d5b44fc22581030ebf7388da8ffce72ff1f8a",
+      "arm": "with_memory",
+      "source": "bcb",
+      "cutoff": "2024-12-13T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:50.907893+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.05,
+          "down": 0.81,
+          "abstain": 0.14
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "02cf427a54e67b1c2fc369b99578fb8c73f5681882f08dde97fa1b5da9abeed4",
+      "arm": "without_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2026-09-23T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:51.266102+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.58,
+          "down": 0.1,
+          "abstain": 0.32
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "02cf427a54e67b1c2fc369b99578fb8c73f5681882f08dde97fa1b5da9abeed4",
+      "arm": "with_memory",
+      "source": "agencia_brasil",
+      "cutoff": "2026-09-23T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T18:52:51.765648+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.45,
+          "down": 0.18,
+          "abstain": 0.37
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    }
+  ],
+  "limitations": [
+    "Textos atuais recuperados hoje, sem garantia da versão original.",
+    "Pré-treinamento Jev pode incluir eventos posteriores aos cortes.",
+    "Amostra pequena e seleção por disponibilidade das fontes.",
+    "Reflexões atuais não são retroagidas; piloto não mede aprendizado por reflexões históricas.",
+    "Intervalo de Wilson descritivo; não corrige dependência de mercado."
+  ],
+  "documents_collected": 171,
+  "episodes_prepared": 171,
+  "excluded_documents": [],
+  "provenance": {
+    "model": "jev-1.14.0",
+    "evaluation_date": "2026-10-28",
+    "horizon_trading_records": 3,
+    "input_sha256": {
+      "evaluation_snapshot.json": "493f00685ba7eb7ed65405e3fb4e1d7c69c0ae2b3db2196a83dba351476f3ae0",
+      "precos_ibov.csv": "4fbd07623ff14b04732c360963e9802339f92221cb5bab9547e7e894d3b4acc0"
+    },
+    "code_sha256": {
+      "ibov/avaliacao_noticias.py": "968eb5bdc05885542f3e5504a4f22ff0812fcd5227c3a92a0073eb1fba777f94",
+      "ibov/coleta_noticias.py": "37d22a32d1ca3792547f153622b84f1c16f80bf68c58d352e7d054a0018208eb",
+      "ibov/memoria.py": "ca7ce075e324b15642a4e9975c7c3ef3b37d8d85686f22e93852280bf128e101",
+      "ibov/decisao_noticias.py": "ab3bd886e81303b4a7783910abdbd25f66d5c7d9f64c6ff5552ab03ef9d5c46b"
+    },
+    "libraries": {
+      "pandas": "2.3.3",
+      "numpy": "2.5.4",
+      "yfinance": "1.7.0",
+      "pypdf": "6.21.4"
+    },
+    "source_counts": {
+      "bcb": 158,
+      "agencia_brasil": 13
+    },
+    "source_year_counts": {
+      "2016": {
+        "bcb": 2,
+        "agencia_brasil": 1
+      },
+      "2017": {
+        "bcb": 16,
+        "agencia_brasil": 2
+      },
+      "2018": {
+        "agencia_brasil": 2,
+        "bcb": 16
+      },
+      "2019": {
+        "agencia_brasil": 2,
+        "bcb": 16
+      },
+      "2020": {
+        "agencia_brasil": 2,
+        "bcb": 16
+      },
+      "2021": {
+        "bcb": 16
+      },
+      "2022": {
+        "agencia_brasil": 1,
+        "bcb": 16
+      },
+      "2023": {
+        "bcb": 16,
+        "agencia_brasil": 1
+      },
+      "2024": {
+        "bcb": 16
+      },
+      "2025": {
+        "bcb": 16,
+        "agencia_brasil": 1
+      },
+      "2026": {
+        "bcb": 12,
+        "agencia_brasil": 1
+      }
+    },
+    "retrospective_reflections_used": false,
+    "new_api_decisions": 24,
+    "resume_with_zero_new_requests": "successful"
+  },
+  "verification": {
+    "unittest": "50 passed",
+    "network_in_unit_tests": false,
+    "cached_resume_with_max_requests_zero": true
+  }
+}

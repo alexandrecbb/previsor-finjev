@@ -1,0 +1,229 @@
+{
+  "horizon": 7,
+  "n_iter": 10,
+  "seed": 42,
+  "raw_start": "2016-10-31",
+  "raw_end": "2026-10-27",
+  "raw_rows": 2481,
+  "common_labeled_rows": 2425,
+  "development_end": "2023-07-11",
+  "test_start": "2023-07-21",
+  "test_end": "2026-10-16",
+  "test_rows": 809,
+  "ranking": [
+    {
+      "name": "quatro_mercados_selic",
+      "config": {
+        "external": true
+      },
+      "folds": [
+        {
+          "accuracy": 0.6119402985074627,
+          "balanced_accuracy": 0.5,
+          "roc_auc": 0.46004012924744625,
+          "predicted_up_fraction": 1.0,
+          "threshold": 0.47,
+          "start": "2018-08-28",
+          "end": "2020-04-15",
+          "baseline_accuracy": 0.6119402985074627
+        },
+        {
+          "accuracy": 0.5522388059701493,
+          "balanced_accuracy": 0.5147091792253082,
+          "roc_auc": 0.5326068003487359,
+          "predicted_up_fraction": 0.972636815920398,
+          "threshold": 0.49999999999999994,
+          "start": "2020-04-16",
+          "end": "2021-11-30",
+          "baseline_accuracy": 0.5398009950248757
+        },
+        {
+          "accuracy": 0.5024875621890548,
+          "balanced_accuracy": 0.5,
+          "roc_auc": 0.49892326732673264,
+          "predicted_up_fraction": 1.0,
+          "threshold": 0.49999999999999994,
+          "start": "2021-12-01",
+          "end": "2023-07-11",
+          "baseline_accuracy": 0.5024875621890548
+        }
+      ],
+      "mean_accuracy": 0.5555555555555556,
+      "std_accuracy": 0.044745398219675075
+    },
+    {
+      "name": "sem_externos",
+      "config": {},
+      "folds": [
+        {
+          "accuracy": 0.6119402985074627,
+          "balanced_accuracy": 0.5,
+          "roc_auc": 0.4676490514905149,
+          "predicted_up_fraction": 1.0,
+          "threshold": 0.49999999999999994,
+          "start": "2018-08-28",
+          "end": "2020-04-15",
+          "baseline_accuracy": 0.6119402985074627
+        },
+        {
+          "accuracy": 0.5398009950248757,
+          "balanced_accuracy": 0.5,
+          "roc_auc": 0.5280234151201892,
+          "predicted_up_fraction": 1.0,
+          "threshold": 0.49999999999999994,
+          "start": "2020-04-16",
+          "end": "2021-11-30",
+          "baseline_accuracy": 0.5398009950248757
+        },
+        {
+          "accuracy": 0.5024875621890548,
+          "balanced_accuracy": 0.5,
+          "roc_auc": 0.5159900990099009,
+          "predicted_up_fraction": 1.0,
+          "threshold": 0.5399999999999999,
+          "start": "2021-12-01",
+          "end": "2023-07-11",
+          "baseline_accuracy": 0.5024875621890548
+        }
+      ],
+      "mean_accuracy": 0.5514096185737977,
+      "std_accuracy": 0.045431600437156605
+    },
+    {
+      "name": "quatro_mercados",
+      "config": {
+        "external": true,
+        "external_names": [
+          "usdbrl",
+          "sp500",
+          "vix",
+          "brent"
+        ]
+      },
+      "folds": [
+        {
+          "accuracy": 0.6119402985074627,
+          "balanced_accuracy": 0.5,
+          "roc_auc": 0.4708281217427559,
+          "predicted_up_fraction": 1.0,
+          "threshold": 0.49999999999999994,
+          "start": "2018-08-28",
+          "end": "2020-04-15",
+          "baseline_accuracy": 0.6119402985074627
+        },
+        {
+          "accuracy": 0.5398009950248757,
+          "balanced_accuracy": 0.5,
+          "roc_auc": 0.5321086063021547,
+          "predicted_up_fraction": 1.0,
+          "threshold": 0.49,
+          "start": "2020-04-16",
+          "end": "2021-11-30",
+          "baseline_accuracy": 0.5398009950248757
+        },
+        {
+          "accuracy": 0.5024875621890548,
+          "balanced_accuracy": 0.5,
+          "roc_auc": 0.5310519801980198,
+          "predicted_up_fraction": 1.0,
+          "threshold": 0.49999999999999994,
+          "start": "2021-12-01",
+          "end": "2023-07-11",
+          "baseline_accuracy": 0.5024875621890548
+        }
+      ],
+      "mean_accuracy": 0.5514096185737977,
+      "std_accuracy": 0.045431600437156605
+    }
+  ],
+  "winner": "quatro_mercados_selic",
+  "test": {
+    "sem_externos": {
+      "accuracy": 0.5216316440049443,
+      "balanced_accuracy": 0.49570048664484734,
+      "roc_auc": 0.5718291472070018,
+      "predicted_up_fraction": 0.9876390605686032,
+      "threshold": 0.51,
+      "baseline_accuracy": 0.5265760197775031,
+      "accuracy_gain_ci95": [
+        -0.018541409147095178,
+        0.006180469715698393
+      ],
+      "best_params": {
+        "xgb__subsample": 0.7,
+        "xgb__reg_lambda": 50,
+        "xgb__reg_alpha": 10,
+        "xgb__n_estimators": 200,
+        "xgb__min_child_weight": 5,
+        "xgb__max_depth": 3,
+        "xgb__learning_rate": 0.1,
+        "xgb__gamma": 0.1,
+        "xgb__colsample_bytree": 0.9
+      }
+    },
+    "quatro_mercados": {
+      "accuracy": 0.5265760197775031,
+      "balanced_accuracy": 0.5,
+      "roc_auc": 0.5234343397197808,
+      "predicted_up_fraction": 1.0,
+      "threshold": 0.49,
+      "baseline_accuracy": 0.5265760197775031,
+      "accuracy_gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "best_params": {
+        "xgb__subsample": 0.7,
+        "xgb__reg_lambda": 50,
+        "xgb__reg_alpha": 10,
+        "xgb__n_estimators": 200,
+        "xgb__min_child_weight": 5,
+        "xgb__max_depth": 3,
+        "xgb__learning_rate": 0.1,
+        "xgb__gamma": 0.1,
+        "xgb__colsample_bytree": 0.9
+      }
+    },
+    "quatro_mercados_selic": {
+      "accuracy": 0.5265760197775031,
+      "balanced_accuracy": 0.5,
+      "roc_auc": 0.5366393312004315,
+      "predicted_up_fraction": 1.0,
+      "threshold": 0.49999999999999994,
+      "baseline_accuracy": 0.5265760197775031,
+      "accuracy_gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "best_params": {
+        "xgb__subsample": 0.7,
+        "xgb__reg_lambda": 1,
+        "xgb__reg_alpha": 0,
+        "xgb__n_estimators": 200,
+        "xgb__min_child_weight": 10,
+        "xgb__max_depth": 4,
+        "xgb__learning_rate": 0.05,
+        "xgb__gamma": 0.1,
+        "xgb__colsample_bytree": 0.5
+      }
+    }
+  },
+  "exploratory": true,
+  "sources": {
+    "ibov": "^BVSP",
+    "usdbrl": "BRL=X",
+    "sp500": "^GSPC",
+    "vix": "^VIX",
+    "brent": "BZ=F",
+    "selic": "BCB SGS 432 (% a.a.)"
+  },
+  "download_end_exclusive": "2026-10-28",
+  "data_sha256": {
+    "ibov": "f1016e032a257ed0ae8392ce5e2e4bfdd265a977a3382bf160aac9e67cdf8535",
+    "usdbrl": "0abec652afde9dec4293d96865eea5af12a484286f5fb59db8bc0e874771a63f",
+    "sp500": "9d2dcfd8afa1e98dd77af4d82e748b310fd80a240adcbe7e4a785a3b97a96f33",
+    "vix": "37f614c79045412d0f88a00dfc20d695d192c198b313984e5f5d850b0ada1f80",
+    "brent": "4de6dce905775c059f33794fe640065d4fd5fb082963fac853cb8f72399dcc60",
+    "selic": "ffcf3342e9cf33a93499871294190b92d1efde97ea47b471c5aaa8952bc10f9b"
+  }
+}

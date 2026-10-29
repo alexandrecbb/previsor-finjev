@@ -1,0 +1,16 @@
+numpy>=1.26,<3
+pandas>=2.2,<3
+matplotlib>=3.9,<4
+scikit-learn>=1.6,<2
+xgboost>=2.1.4,<4
+yfinance>=0.2.54,<2
+ta==0.11.0
+
+pypdf>=5,<7
+
+lxml>=5,<7
+
+# Sentimento financeiro em português, executado localmente.
+torch>=2.10,<3
+transformers>=4.57,<6
+# Embeddings semânticos locais usam torch/transformers acima, sem API adicional.

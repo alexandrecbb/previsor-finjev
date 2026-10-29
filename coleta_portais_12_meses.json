@@ -1,0 +1,119 @@
+{
+  "start": "2025-10-28",
+  "end_exclusive": "2026-10-28",
+  "query": "ibovespa",
+  "documents": 9590,
+  "by_source": {
+    "infomoney": 6181,
+    "moneytimes": 3409
+  },
+  "by_month": {
+    "2025-10": {
+      "infomoney": 74,
+      "moneytimes": 69
+    },
+    "2025-11": {
+      "moneytimes": 297,
+      "infomoney": 433
+    },
+    "2025-12": {
+      "infomoney": 398,
+      "moneytimes": 257
+    },
+    "2026-01": {
+      "moneytimes": 287,
+      "infomoney": 468
+    },
+    "2026-02": {
+      "infomoney": 420,
+      "moneytimes": 243
+    },
+    "2026-03": {
+      "moneytimes": 291,
+      "infomoney": 522
+    },
+    "2026-04": {
+      "infomoney": 514,
+      "moneytimes": 245
+    },
+    "2026-05": {
+      "moneytimes": 274,
+      "infomoney": 499
+    },
+    "2026-06": {
+      "infomoney": 586,
+      "moneytimes": 243
+    },
+    "2026-07": {
+      "infomoney": 579,
+      "moneytimes": 306
+    },
+    "2026-08": {
+      "moneytimes": 326,
+      "infomoney": 541
+    },
+    "2026-09": {
+      "moneytimes": 300,
+      "infomoney": 570
+    },
+    "2026-10": {
+      "infomoney": 577,
+      "moneytimes": 271
+    }
+  },
+  "snapshot": "dados_noticias/portais_12_meses/noticias_12_meses.jsonl",
+  "snapshot_sha256": "6b07a90059e967bf09b986fb9d4ac4b9ac20c45b0842696ee9f751cc6a62ee19",
+  "exact_text_duplicates": 0,
+  "reports": {
+    "infomoney": {
+      "source": "infomoney",
+      "start": "2025-10-28",
+      "end_exclusive": "2026-10-28",
+      "query": "ibovespa",
+      "saved": 6181,
+      "discovered": 6181,
+      "errors": [],
+      "complete": true,
+      "method": "wordpress_rest"
+    },
+    "moneytimes": {
+      "source": "moneytimes",
+      "start": "2025-10-28",
+      "end_exclusive": "2026-10-28",
+      "query": "ibovespa",
+      "saved": 3409,
+      "discovered": 3409,
+      "errors": [],
+      "complete": true,
+      "method": "wordpress_rest"
+    },
+    "investing": {
+      "source": "investing",
+      "start": "2025-10-28",
+      "end_exclusive": "2026-10-28",
+      "discovered": 0,
+      "saved": 0,
+      "skipped": 0,
+      "errors": [
+        {
+          "url": "https://br.investing.com/sitemap.xml",
+          "error": "curl: (22) The requested URL returned error: 404\n"
+        }
+      ]
+    },
+    "advfn": {
+      "source": "advfn",
+      "start": "2025-10-28",
+      "end_exclusive": "2026-10-28",
+      "discovered": 0,
+      "saved": 0,
+      "skipped": 0,
+      "errors": [
+        {
+          "url": "https://br.advfn.com/common/sitemaps/sitemapIndex.xml",
+          "error": "curl: (22) The requested URL returned error: 403\n"
+        }
+      ]
+    }
+  }
+}

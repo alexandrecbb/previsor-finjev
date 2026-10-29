@@ -1,0 +1,73 @@
+{
+  "executado_em": "2026-10-28T21:36:42.877904-03:00",
+  "python": "3.14.4",
+  "n_iter": 50,
+  "horizonte": 3,
+  "configuracao": "Padrão XGBoost, atributos relativos, suavização 0.7, limiar ajustado e parada antecipada; sem notícias e sem externos.",
+  "dados": {
+    "fonte": "Yahoo Finance via yfinance",
+    "inicio": "2016-10-31",
+    "fim": "2026-10-27",
+    "registros": 2481,
+    "sha256": "f1016e032a257ed0ae8392ce5e2e4bfdd265a977a3382bf160aac9e67cdf8535"
+  },
+  "divisao": {
+    "treino_inicio": "2017-01-11",
+    "treino_fim": "2023-07-20",
+    "teste_inicio": "2023-07-26",
+    "teste_fim": "2026-10-22",
+    "treino_n": 1616,
+    "teste_n": 810,
+    "lacuna_pregoes": 3,
+    "validacoes": [
+      {
+        "treino_n": 401,
+        "validacao_n": 404,
+        "lacuna": 3
+      },
+      {
+        "treino_n": 805,
+        "validacao_n": 404,
+        "lacuna": 3
+      },
+      {
+        "treino_n": 1209,
+        "validacao_n": 404,
+        "lacuna": 3
+      }
+    ]
+  },
+  "teste": {
+    "accuracy": 0.5358024691358024,
+    "precision": 0.5456110154905336,
+    "recall": 0.7389277389277389,
+    "f1": 0.6277227722772277,
+    "roc_auc": 0.5595568036512918,
+    "pr_auc": 0.63468939200073,
+    "baseline_accuracy": 0.5296296296296297,
+    "threshold": 0.5399999999999999,
+    "balanced_accuracy": 0.5230071765504836,
+    "matriz_confusao_0_1": [
+      [
+        117,
+        264
+      ],
+      [
+        112,
+        317
+      ]
+    ],
+    "acertos": 434,
+    "previsoes_alta": 581,
+    "altas_reais": 429,
+    "probabilidade_alta_min": 0.5399063229560852,
+    "probabilidade_alta_max": 0.5500423312187195
+  },
+  "previsao_recente": {
+    "classe": 1,
+    "probabilidades_0_1": [
+      0.4581432342529297,
+      0.5418567657470703
+    ]
+  }
+}

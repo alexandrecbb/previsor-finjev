@@ -1,0 +1,865 @@
+{
+  "discovery": {
+    "start": "2025-10-28",
+    "end_exclusive": "2026-10-28",
+    "sampling_interval_days": 7,
+    "sample_hour_utc": 21,
+    "files_requested": 53,
+    "files_read": 53,
+    "metadata_processed": 104768,
+    "errors": []
+  },
+  "collection": {
+    "start": "2025-10-28",
+    "end_exclusive": "2026-10-28",
+    "candidates": 252,
+    "saved": 56,
+    "reused_existing": 3,
+    "new_texts": 53,
+    "errors": [
+      {
+        "url": "https://amanha.com.br/categoria/agronegocio/governo-federal-lanca-plano-safra-de-r-525-1-bilhoes",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito ABR."
+      },
+      {
+        "url": "https://amanha.com.br/categoria/brasil/deficit-do-setor-publico-em-maio-foi-de-r-56-bilhoes",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://canaltech.com.br/produtos/meta-pausa-expansao-internacional-de-seus-oculos-com-projecao-entenda-motivos/",
+        "error": "Texto significativamente menor que wordCount declarado; possível trecho incompleto."
+      },
+      {
+        "url": "https://canaltech.com.br/hardware/crise-sem-precedentes-ninguem-esta-imune-a-falta-de-memorias-diz-samsung/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://canaltech.com.br/smartphone/iphone-dobravel-ja-enfrenta-problema-e-pode-faltar-nas-lojas/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://canaltech.com.br/smartphone/celulares-devem-ficar-ainda-mais-caros-em-2027-devido-a-crise-causada-pela-ia/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://carros.ig.com.br/motos/2026-08-11/yamaha-oferece-seis-motos-pronta-entrega-move-brasil.html",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://cbn.globo.com/economia/noticia/2026/05/12/petrobras-pode-aumentar-gasolina-nas-refinarias-em-breve-indica-presidente-da-estatal.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://conjur.com.br/2026-ago-25/investigacao-defensiva-e-prova-penal-quem-controla-a-qualidade-da-investigacao-estatal/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://avozdaserra.com.br/noticias/novo-desenrola-para-micro-e-pequenas-empresas-promete-limpar-dividas-esquecidas",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://avozdaserra.com.br/noticias/jovens-alistados-no-tg-sao-encaminhados-para-doacao-de-sangue",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://arede.info/ponta-grossa/616986/acipg-avalia-projeto-oficial-do-contorno-leste-em-reuniao-com-a-prvias",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://arede.info/ponta-grossa/634911/sindicato-de-servidores-ameaca-paralisacao-e-prefeitura-de-pg-esclarece-tratativas",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://correiodobrasil.com.br/a/operacao-mira-esquema-desvio-remedios-barueri",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://dol.com.br/entretenimento/fama/935393/apos-30-anos-audio-da-caixa-preta-do-voo-dos-mamonas-volta-a-repercutir-ouca",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://conexaoto.com.br/2025/10/28/mata-atlantica-mantem-apenas-31-de-sua-vegetacao-natural",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://emtempo.com.br/465772/economia/petrobras-abre-vagas-estagio-manaus-2026/",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://epocanegocios.globo.com/empresas/noticia/2026/01/demanda-sem-precedentes-meta-interrompe-venda-de-seus-oculos-ray-ban-display-fora-dos-eua.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/ro/rondonia/noticia/2025/11/04/veja-como-votaram-os-deputados-de-ro-no-projeto-que-aumenta-salarios-de-servidores-do-judiciario.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2025/12/23/moradores-do-interior-de-sp-enfrentam-falta-de-agua-na-semana-do-natal.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/sp/itapetininga-regiao/noticia/2025/12/23/policia-civil-cumpre-mandados-em-operacao-contra-crimes-virtuais-e-fake-news-em-endereco-ligado-a-ex-secretario-de-avare.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2025/12/23/jovem-que-se-perdeu-em-area-de-mata-e-encontrado-na-serra-do-japi-apos-12-dias-desaparecido.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/mundo/noticia/2026/02/10/eua-posicionam-misseis-moveis-em-base-no-catar-em-meio-a-tensao-com-o-ira.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/02/10/homem-ameaca-incendiar-agencia-bancaria-apos-se-irritar-com-atendimento-em-uberlandia.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/03/31/tres-restaurantes-devem-ser-desocupados-sob-risco-de-multa-diaria-de-r-500-no-interior-de-sp.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/sp/bauru-marilia/especial-publicitario/grupo-comauto-planeje-suas-conquistas-com-o-grupo-comauto/noticia/2026/05/05/consorcio-de-servicos-o-segredo-para-realizar-sonhos-sem-pagar-juros.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/06/09/fila-por-queima-de-estoque-atrapalha-transito-no-centro-de-uberlandia-e-acaba-com-intervencao-da-pm.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/rj/regiao-dos-lagos/noticia/2026/07/28/programa-de-incentivo-ao-audiovisual-abre-inscricoes-para-projetos-em-marica.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/rn/rio-grande-do-norte/especial-publicitario/byd-carmais/noticia/2026/09/01/byd-carmais-amplia-estrutura-em-parnamirim-com-alta-dos-eletrificados.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://g1.globo.com/mt/mato-grosso/noticia/2026/10/13/farmacia-e-alvo-de-furto-de-canetas-emagrecedoras-pela-3a-vez-em-menos-de-um-mes-em-cuiaba.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://girodoboi.canalrural.com.br/pecuaria/confinamento-custo-alimentacao/",
+        "error": "Texto significativamente menor que wordCount declarado; possível trecho incompleto."
+      },
+      {
+        "url": "https://globorural.globo.com/agricultura/hortifruti/noticia/2026/02/cidades-produtoras-de-cebola-em-sc-decretam-emergencia-por-precos-baixos.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://globorural.globo.com/agricultura/cacau/noticia/2026/03/mudanca-na-importacao-do-cacau-e-resposta-contra-instabilidade-no-setor-diz-governo.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://globorural.globo.com/cotacoes/noticia/2026/06/ajustes-tecnicos-e-demanda-maior-fazem-cacau-subir-6percent-em-nova-york.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://globorural.globo.com/pecuaria/peixe/noticia/2026/06/comercio-pesqueiro-e-aquicola-movimenta-us-184-bilhoes-diz-fao.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://globorural.globo.com/agricultura/trigo/noticia/2026/07/plantio-de-trigo-esta-concluido-no-parana-com-ajuda-do-clima.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://globorural.globo.com/agricultura/cana/noticia/2026/09/precos-do-etanol-e-do-acucar-sobem-no-mercado-brasileiro.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://globorural.globo.com/agricultura/cafe/noticia/2026/09/consumo-de-cafe-no-brasil-cresceu-229percent-ate-agosto-diz-abic.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://globorural.globo.com/especiais/caminhos-da-safra/noticia/2026/09/conab-podera-ter-r-100-milhoes-para-armazens-de-graos-em-2027.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://globorural.globo.com/agricultura/milho/noticia/2026/09/conab-compra-191-mil-toneladas-de-milho-para-venda-em-balcao-a-criadores.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://greensavers.sapo.pt/eleart-uma-jornada-de-humanos-e-de-elefantes-pela-conservacao-da-natureza-e-da-cultura/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://hoteliernews.com.br/consumo-avanca-07-na-capital-paulista-em-fevereiro/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://igmais.ig.com.br/2025-12-16/ar-condicionado-portatil-entra-no-radar-de-quem-foge-de-obras.html",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://igmais.ig.com.br/2026-04-28/lava-loucas-eos-premium-vira-oportunidade-abaixo-de-r--3-mil.html",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://ilustrado.com.br/refis-permite-regularizar-debitos-com-descontos-de-ate-100-em-juros-e-multa/",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://diariogaucho.clicrbs.com.br/dia-a-dia/conteudo-de-marca/2026/04/ciclo-de-investimentos-acelera-mudancas-no-saneamento-gaucho-cmnxo8r3300au0174d5dh7gjn.html",
+        "error": "curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://jmonline.com.br/geral/dinheiro-esquecido-nos-bancos-sobe-para-r-5-65-bilh-es-1.663841",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://entretenimento.r7.com/vivaavida/feed-tv-viva-a-vida/heloisa-perisse-estreia-no-mercado-de-beleza-com-fragrancia-de-carnaval-17022026/",
+        "error": "curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://jornalintegracao.com.br/2026/02/10/jornal-integracao-on-line-edicao-de-11-2-2026/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornalpequeno.com.br/2026/09/22/maranhao-precisa-de-ate-250-doadores-de-sangue-por-dia/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://mais.opovo.com.br/colunistas/danilo-fontenelle/2026/08/03/a-arte-da-guerra-dos-docinhos.html",
+        "error": "Página declara conteúdo restrito."
+      },
+      {
+        "url": "https://jc.uol.com.br/pernambuco/2026/02/24/nazare-da-mata-sanciona-revisao-salarial-de-426-para-servidores-municipai.html",
+        "error": "curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://newblogs.correiobraziliense.com.br/blog-da-rosana-hessel/mercado-fica-na-expectativa-de-anuncio-de-nomes-de-nova-equipe-economica/",
+        "error": "curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://odia.ig.com.br/economia/2026/09/7299967-dinheiro-esquecido-nos-bancos-sobe-para-rs-565-bilhoes.html",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://einvestidor.estadao.com.br/mercado/petrobras-petr4-balanco-1t26-xp-safra-compra/",
+        "error": "curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://einvestidor.estadao.com.br/ultimas/dolar-hoje-alta-inflacao-eua-ipca-oriente-medio/",
+        "error": "curl: (28) Resolving timed out after 8003 milliseconds\n"
+      },
+      {
+        "url": "https://oglobo.globo.com/economia/noticia/2025/10/28/apos-vitoria-eleitoral-milei-diz-que-prioridade-e-reforma-que-preve-jornada-trabalhista-de-ate-12-horas-diarias-veja-os-principais-pontos.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://oglobo.globo.com/economia/financas/noticia/2025/10/28/dolar-hoje-acordo-trump-xi-bolsa-recorde.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://oglobo.globo.com/economia/noticia/2025/11/11/black-friday-ou-black-november-vendas-em-marketplaces-ja-cresceram-12percent-na-primeira-semana-do-mes.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://oglobo.globo.com/brasil/noticia/2026/05/26/morte-do-fisiculturista-gabriel-ganley-doi-muito-ter-feito-o-alerta-e-visto-o-desfecho-que-temia-diz-nutricionista.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://oglobo.globo.com/economia/noticia/2026/06/16/desenrola-para-adimplentes-deve-ser-restrito-a-informais-com-dividas-de-ate-r-15-mil-e-ter-juros-abaixo-de-4percent.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://oglobo.globo.com/mundo/noticia/2026/07/21/diante-da-retomada-da-guerra-contra-o-ira-pentagono-enfrenta-problemas-orcamentarios-e-pede-ajuda-ao-congresso-dos-eua.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://oglobo.globo.com/economia/noticia/2026/10/20/flavio-e-lula-prometem-comprar-dividas-o-que-se-sabe-e-o-que-nao-esta-explicado-nas-propostas.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://oglobo.globo.com/economia/noticia/2026/10/20/trump-anuncia-us-8-bilhoes-em-subsidios-a-combustiveis-para-fazendeiros-durante-a-colheita.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://paraiba.com.br/federacoes-se-dividem-sobre-futuro-da-greve-na-petrobras/",
+        "error": "Acesso vedado por robots.txt."
+      },
+      {
+        "url": "https://paraiba.com.br/petrobras-muda-calculo-do-preco-do-gas-natural/",
+        "error": "Acesso vedado por robots.txt."
+      },
+      {
+        "url": "https://petronoticias.com.br/petrobras-assina-acordo-com-anp-para-adequar-mais-de-300-pocos-maritimos/",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://petronoticias.com.br/oceaneering-fecha-contrato-para-prestar-servicos-de-veiculos-operados-remotamente-para-a-petrobras/",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://planetaosasco.com/economia/891511-petrobras-garante-estabilidade-de-precos-de-combustiveis-no-brasil",
+        "error": "Texto significativamente menor que wordCount declarado; possível trecho incompleto."
+      },
+      {
+        "url": "https://pt.euronews.com/my-europe/2026/07/14/italia-letta-diz-que-soberania-nacional-e-oferecer-presentes-aos-eua-e-a-china",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://quatrorodas.abril.com.br/carros-eletricos/carro-mais-barato-do-brasil-pode-ser-feito-na-mesma-fabrica-do-chevrolet-spark/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://quatrorodas.abril.com.br/auto-servico/por-que-faltam-pecas-reposicao-mercado-brasileiro/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://revistacrescer.globo.com/maes-e-pais/historias/noticia/2026/10/mae-impressiona-com-mochila-maluca-inspirada-no-universo-da-disney-e-do-harry-potter.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://noticias.r7.com/prisma/luiz-fara-monteiro/bndes-aprova-r-200-mi-para-eve-avancar-no-desenvolvimento-do-carro-voador-09122025/",
+        "error": "curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://noticias.r7.com/prisma/luiz-fara-monteiro/embraer-e-latam-assinam-acordo-do-programa-pool-para-a-frota-de-e195-e2-encomendada-pela-companhia-aerea-13102026/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://revistapegn.globo.com/ideias-de-negocios/noticia/2026/03/pai-e-filho-criam-bar-inspirado-na-cultura-baiana-e-faturam-r-340-mil-por-mes-em-salvador.ghtml",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://sol.iol.pt/vida/noticias/para-que-serve-o-buraco-na-patilha-da-lata-a-resposta-surpreende/20260317/69b9856c0cf27cac6fcefecc",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://revistaforum.com.br/opiniao/concessao-e-privatizacao/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://revistaforum.com.br/brasil/gigante-de-logistica-investe-r-700-milhoes-em-malha-ferroviaria-de-minas-gerais/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://revistaforum.com.br/sp/justica-suspende-lei-da-securitizacao-em-sao-vicente/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://revistaforum.com.br/opiniao/privatizacao-de-rios/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://revistaforum.com.br/aposentados/59-mil-atendimentos-inss-mutirao/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://telesintese.com.br/apos-redata-ibtd-propoe-regime-especial-para-ampliar-backbones/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://tnonline.uol.com.br/noticias/apucarana/prefeitura-de-apucarana-abre-pss-com-48-vagas-inscricoes-comecam-no-dia-17-1125782",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://tnonline.uol.com.br/noticias/apucarana/comissao-especial-da-divida-apresenta-relatorio-final-em-apucarana-1127839",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://tnonline.uol.com.br/noticias/apucarana/apucarana-decreta-situacao-de-emergencia-apos-temporal-1148218",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://tribunadonorte.com.br/viver/cinemark-lanca-promocao-para-o-dia-da-pipoca-ate-10-litros-por-r-19/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://ofertas.canaltech.com.br/celular-samsung-galaxy-s26-5g-256-gb-12-gb-ram-galaxy-ai-preto-ative-o-cupom-pix/",
+        "error": "curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://ofertas.canaltech.com.br/samsung-galaxy-a57-5g-256-gb-samsung-galaxy-watch8-bt-44mm-pix/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://ofertas.canaltech.com.br/parcelado-carregador-portatil-20-000-mah-com-carregamento-rapido-geonav-cupom-290539/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://ultimosegundo.ig.com.br/brasil/rj/2026-01-13/civitas-triplica-capacidade-e-fortalece-apoio-a-seguranca-no-rio.html",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://ultimosegundo.ig.com.br/brasil/sp/2026-08-11/aneel-nega-recurso-da-enel-e-mantem-processo-de-caducidade.html",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://visaooeste.com.br/raposo-shopping-promove-campanha-de-doacao-de-sangue-nesta-terca-21/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://vermelho.org.br/2026/04/07/ataques-de-trump-revelam-estrategia-da-guerra-o-mercado-de-energia/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.band.com.br/entretenimento/espetaculo-drolmas-revisita-mito-de-medusa-em-curitiba",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.acidadeon.com/araraquara/conteudo-patrocinado/sincomercio/contratacoes-temporarias-devem-se-manter-em-alta-em-araraquara/",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.acidadeon.com/piracicaba/cotidiano/tartaruga-que-fugiu-de-loja-no-centro-de-limeira-e-encontrada-por-mulher-e-devolvida-a-familia/",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.acidadeon.com/campinas/cotidiano/ministerio-da-saude-inicia-distribuicao-nacional-da-vacina-contra-o-virus-sincicial-respiratorio/",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.bbc.com/portuguese/articles/c151nkd2dqzo",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.bemparana.com.br/noticias/parana/projeto-do-contorno-de-ponta-grossa-prioriza-seguranca-viaria-e-preservacao-ambiental/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.bemparana.com.br/noticias/economia/parana-cria-183-mil-empregos-formais-em-janeiro-veja-os-setores-com-mais-vagas/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.brasil247.com:443/economia/cni-alerta-para-impacto-de-nova-tarifa-dos-eua-contra-o-brasil",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://www.brasil247.com:443/mundo/acordo-com-ira-inclui-fundo-de-us-300-bi-dos-quais-mais-da-metade-ja-foi-comprometida-diz-agencia",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://veja.abril.com.br/coluna/radar-economico/justica-suspende-decisao-da-anatel-contra-plintron-no-caso-surf-telecom/",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://veja.abril.com.br/saude/quando-as-canetas-emagrecedoras-vao-ficar-mais-baratas-no-brasil/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://veja.abril.com.br/economia/inadimplencia-nao-impede-consumidor-de-compras-na-pascoa/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://veja.abril.com.br/economia/entenda-quais-fatores-frustram-os-investidores-nesta-terca-feira/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://veja.abril.com.br/politica/auditoria-da-cedae-liga-aportes-no-master-a-jantar-de-castro-e-vorcaro-em-nova-york/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://veja.abril.com.br/politica/auxiliares-de-lula-comemoram-trocas-e-sugestoes-em-jantar-com-banqueiros-e-empresarios-no-alvorada/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://veja.abril.com.br/mundo/zelensky-se-reune-com-enviado-de-trump-em-meio-a-tensao-sobre-ajuda-militar/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.capitalnews.com.br/politica-e-poder/tribunal-de-contas/tce-ms-suspende-licitacao-de-r-1-milhao-em-nova-andradina/434125",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.capitalnews.com.br/nacional/mercado-reduz-previsao-da-inflacao-para-397-este-ano/435569",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.capitalnews.com.br/policia-e-justica/policia/remedios-para-emagrecer-ilegais-sao-apreendidos-escondidos-em-pelucias-e-bonecas-em-mato-grosso-do-sul/439235",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.correio24horas.com.br/politica/e-absurdo-o-volume-de-emprestimos-do-governo-diz-deputado-apos-o-21-pedido-feito-por-jeronimo-1125",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.correio24horas.com.br/minha-bahia/mudanca-de-cobranca-do-planserv-e-aprovada-sob-protestos-de-servidores-na-alba-1225",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.correio24horas.com.br/em-alta/virginia-relembra-promessa-feita-a-chaiany-enquanto-a-ex-sister-estava-confinada-no-bbb-26-vamos-atras-dela-0426",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.conjur.com.br/2026-jun-09/inovacao-mas-com-controle-bc-restringe-uso-de-stablecoins-em-pagamentos-internacionais/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.conjur.com.br/2026-jul-07/comrating-pgf-arrecada-mais-ajuizando-80-menos-execucoes-fiscais/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/07/11719280-justica-concede-liberdade-ao-padre-airton-freire-apos-quase-tres-anos.html",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.diariodepernambuco.com.br/economia/2026/09/11723981-durigan-diz-que-brasil-nao-pode-continuar-com-a-maior-taxa-de-juros-do-mundo.html",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.diariodigital.com.br/economia/dinheiro-esquecido-nos-bancos-sobe-para-r-5-65-bilhoes",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://www.correiodopovo.com.br/not%c3%adcias/economia/haddad-diz-que-selic-tera-de-cair-apesar-de-pressao-dos-bancos-e-torcida-contra-do-mercado-1.1664679",
+        "error": "curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/fila-do-inss-esta-abaixo-de-15-milhao-de-pedidos-diz-ministro-da-previdencia-1.1736534",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/guerra-com-ira-custou-us-38-bilhoes-aos-eua-diz-escritorio-do-orcamento-do-congresso-1.1748140",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.diariodolitoral.com.br/nacional/brasil/anvisa-proibe-venda-de-remedios-das-marcas-needs-e-bwell-em-gigante/209027/",
+        "error": "Texto significativamente menor que wordCount declarado; possível trecho incompleto."
+      },
+      {
+        "url": "https://www.diariodosudoeste.com.br/camara-de-clevelandia-destaca-fiscalizacao-e-controle-em-projeto-sobre-recebimento-de-doacoes/",
+        "error": "curl: (22) The requested URL returned error: 404\n"
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/mundo/furacao-melissa-atinge-jamaica-com-categoria-maxima-e-pode-ser-a-tempestade-do-seculo/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/brasil/operacao-desarticula-esquema-de-desvio-de-remedios-de-sus-na-grande-sp/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/economia/bc-vai-limitar-prestacao-de-servicos-no-mercado-de-cambio-a-instituicoes-autorizadas/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/economia/conselho-do-fgts-aprova-teto-maior-de-renda-e-de-financiamento-do-minha-casa-minha-vida/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/economia/abdi-tem-r-68-milhoes-em-editais-e-bolsas-com-foco-em-inovacao/",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/mundo/pboc-recomenda-uso-de-forma-abrangente-de-multiplos-instrumentos-de-politica-monetaria/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/haddad-em-resposta-a-tarcisio-situacao-em-sp-so-nao-esta-pior-por-causa-da-ajuda-de-lula/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/saude/hemocentro-realiza-coleta-de-sangue-na-esplanada-durante-semana-do-trabalhador/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/economia/petrobras-evita-reajustes-abruptos-em-combustiveis-apesar-de-guerra-no-oriente-medio/",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/economia/tcu-caixa-nao-podera-manter-lote-unico-em-contratacao-de-r-147-bilhao-para-autoatendimento/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/economia/fila-do-inss-esta-abaixo-de-15-milhao-de-pedidos-diz-ministro-da-previdencia/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/entretenimento/katia-flavia/burger-king-aposta-na-hello-kitty-e-cria-caca-ao-tesouro-com-seis-brindes/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.dgabc.com.br/Noticia/4279204/ouro-fecha-em-queda-apos-realizacao-de-lucros-em-sessao-volatil",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.dgabc.com.br/Noticia/4279210/inflacao-na-argentina-avanca-2-8-em-dezembro-ante-novembro-e-31-5-na-comparacao-anual",
+        "error": "Texto editorial curto ou ausente; não contabilizado como corpo recuperado."
+      },
+      {
+        "url": "https://www.dgabc.com.br/Noticia/4284508/fgc-aprova-plano-para-cobrir-rombo-do-master-e-quer-garantir-caixa-ja-no-1-trimestre",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.dgabc.com.br/Noticia/4319982/tcu-caixa-nao-podera-manter-lote-unico-em-contratacao-de-rs-1-47-bilhao-para-autoatendimento",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.dgabc.com.br/Noticia/4339295/fila-do-inss-esta-abaixo-de-1-5-milhao-de-pedidos-diz-ministro-da-previdencia",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.dn.pt/sociedade/identidade-de-gnero-governo-no-escondeu-nenhum-parecer-diz-ministra",
+        "error": "curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://www.dw.com/pt-br/guerra-pressiona-sistema-de-sa%C3%BAde-do-ir%C3%A3-e-amea%C3%A7a-pacientes-cr%C3%B4nicos/a-76396183",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.gazetadigital.com.br/editorias/economia/copom-avalia-os-indicadores-economicos-para-decidir-sobre-o-valor-atual-da-selic/850144",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://www.em.com.br/cultura/2025/12/7315290-diretor-americano-de-filme-sobre-bolsonaro-diz-estar-fazendo-thriller-politico-contemporaneo.html",
+        "error": "curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.em.com.br/politica/platobr/2026/07/7456581-ajuste-fiscal-ou-colapso-os-3-cenarios-para-as-financas-publicas-segundo-a-warren.html",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.estadao.com.br/internacional/o-que-esperar-do-discurso-de-trump-no-congresso-dos-eua-nesta-noite-veja-o-que-voce-precisa-saber/",
+        "error": "curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.estadao.com.br/economia/recado-copom-juros-gastos-governo/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.estadao.com.br/einvestidor/marilia-fontes/tesouro-prefixado-a-14-parece-oportunidade-mas-tambem-e-um-aviso-ao-investidor/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.estadao.com.br/politica/eleicoes/haddad-critica-taxa-de-juros-e-promete-bndes-estadual-em-evento-com-a-industria/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mesmo-com-incerteza-gestores-aumentam-risco-na-bolsa-veja-os-setores-preferidos/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-mira-10-alta-seguida-com-pib-do-brasil-e-tensao-no-oriente-medio/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.estadao.com.br/einvestidor/cripto/bitcoin-chegou-a-us-87-mil-perdeu-forca-e-agora-encara-novos-obstaculos-para-voltar-a-subir/",
+        "error": "Acesso suspenso neste domínio: curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.guiamuriae.com.br/noticias/brasil/conselho-do-fgts-amplia-teto-de-renda-e-valor-de-imoveis-do-minha-casa/",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://www.jaenoticia.com.br/noticias/2025/12/02/141532-provas-de-selecao-para-cinco-cursos-do-ifal-sao-anuladas",
+        "error": "Publicação explícita ausente; observação GDELT não é publicação."
+      },
+      {
+        "url": "https://www.gazetadopovo.com.br/ideias/o-13o-salario-e-um-truque-matematico/",
+        "error": "curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://www.investimentosenoticias.com.br/noticias/mercado/b-bsa-avanca-com-decisao-favoravel-em-processo-bilionario/",
+        "error": "curl: (28) Resolving timed out after 8002 milliseconds\n"
+      },
+      {
+        "url": "https://www.jornaldeuberaba.com.br/noticia/157747/fab-envia-militares-e-18-toneladas-de-medicamentos-para-a-venezuela",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.jornaldocomercio.com/economia/2025/10/1223232-salario-minimo-atual-cobre-apenas-21-do-necessario-para-manter-uma-familia-em-porto-alegre.html",
+        "error": "Página declara conteúdo restrito."
+      },
+      {
+        "url": "https://www.novoeste.com/noticias/81120/fmi-corta-previsao-para-economia-global-mas-eleva-pib-do-brasil",
+        "error": "robots retornou HTML; acesso não confirmado."
+      },
+      {
+        "url": "https://www.novoeste.com/noticias/81121/conab-estima-safra-de-graos-em-356-3-milhoes-de-toneladas-em-2025-26-influenciada-por-boas-produtividades",
+        "error": "Acesso suspenso neste domínio: robots retornou HTML; acesso não confirmado."
+      },
+      {
+        "url": "https://www.meionews.com/noticias/economia/estreito-de-ormuz-sob-cerco-1000-navios-parados-e-o-alerta-do-fim-de-um-ciclo-558267",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.meionews.com/noticias/aviao-agricola-cai-em-regiao-de-mata-e-deixa-piloto-morto-em-minas-gerais-562782",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.portalaz.com.br/noticia/economia/95898/emprego-formal-desacelera-e-brasil-tem-menor-saldo-de-vagas-do-ano/",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.jornaldamidia.com.br/2026/08/25/simm-oferece-505-vagas-de-emprego-para-esta-quarta-feira-26/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.portalr3.com.br/2026/02/03/bc-confirma-corte-da-selic-em-marco-mas-mantera-juros-restritivos",
+        "error": "Agência Brasil excluída do escopo, inclusive crédito no conteúdo."
+      },
+      {
+        "url": "https://www.infomoney.com.br/mercados/banco-central-cancela-leiloes-de-vendas-de-dolares-pouco-depois-de-anunciar/",
+        "error": "Texto editorial curto ou ausente; não contabilizado como corpo recuperado."
+      },
+      {
+        "url": "https://www.infomoney.com.br/economia/mercado-de-trabalho-janeiro-2026-vagas-formais/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.infomoney.com.br/onde-investir/fiis-sob-tensao-xp-asset-ve-petroleo-e-inflacao-como-risco-a-selic-entenda/",
+        "error": "Texto significativamente menor que wordCount declarado; possível trecho incompleto."
+      },
+      {
+        "url": "https://www.infomoney.com.br/minhas-financas/prazo-desconto-e-juros-veja-detalhes-de-programa-para-renegociacao-de-dividas/",
+        "error": "Texto significativamente menor que wordCount declarado; possível trecho incompleto."
+      },
+      {
+        "url": "https://www.infomoney.com.br/mercados/ambev-abev3-expansao-no-maranhao-reduz-custos-e-fortalece-tese-premium/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.infomoney.com.br/economia/brasil-arrecadaria-r-30-bi-por-ano-com-imposto-sobre-fortunas-diz-estudo/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.infomoney.com.br/mercados/bitcoin-sobe-e-vai-a-maior-valor-em-quase-1-mes-com-maior-apetite-por-risco/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.infomoney.com.br/economia/inflacao-na-argentina-acelera-alta-para-34-em-marco-ante-fevereiro/",
+        "error": "Texto significativamente menor que wordCount declarado; possível trecho incompleto."
+      },
+      {
+        "url": "https://www.infomoney.com.br/mercados/ouro-fecha-em-queda-acompanhando-novas-tensoes-entre-eua-e-ira/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.infomoney.com.br/business/juros-altos-paralisam-inovacao-empresas-cios/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.infomoney.com.br/mercados/investidores-enxergam-resiliencia-em-weg-e-embraer-em-semana-de-volatilidade-local/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.infomoney.com.br/onde-investir/crescimento-do-patrimonio-de-um-fii-significa-automaticamente-mais-dividendos/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.reporterdiario.com.br/noticia/3737553/bullguer-anuncia-primeira-loja-em-sao-caetano/",
+        "error": "Texto significativamente menor que wordCount declarado; possível trecho incompleto."
+      },
+      {
+        "url": "https://www.rondoniaovivo.com/noticia/politica/2025/11/11/r-24-bilhoes-emendas-de-marcos-rogerio-reforca-a-seguranca-publica-em-2026.html",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.otempo.com.br/politica/2026/10/20/simoes-envia-proposta-de-reajuste-anual-da-seguranca-para-almg-e-atropela-cleitinho-pela-2-vez",
+        "error": "curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.rondoniadinamica.com/noticias/2025/12/prefeito-affonso-lanca-refis-jipa-com-descontos-sobre-juros-e-multas-em-impostos-e-taxas,232698.shtml",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.rondoniadinamica.com/noticias/2026/01/rondonia-e-lider-em-apoio-a-negocios-inovadores-tem-2-menor-taxa-de-desemprego-e-3-melhor-projecao-do-pib,236034.shtml",
+        "error": "Contêiner editorial não identificado; não usar texto da página inteira."
+      },
+      {
+        "url": "https://www.rondoniadinamica.com/noticias/2026/07/parceria-entre-detran-ro-prf-e-fhemeron-marca-o-dia-do-motorista-com-acao-de-conscientizacao,250317.shtml",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.rondoniadinamica.com/noticias/2026/07/policia-civil-investiga-morte-de-bebe-em-creche-de-sao-paulo,250329.shtml",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.sonoticias.com.br/economia/lucas-e-nova-mutum-estoque-anual-positivo/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.sonoticias.com.br/politica/sorriso-procon-multa-concessionaria-em-r-491-mil-por-vazamento-de-esgoto-em-bairros/",
+        "error": "Título sem tema econômico identificado; candidato não incluído no corpus."
+      },
+      {
+        "url": "https://www.tecmundo.com.br/guia-de-compras/414253-liquidacao-de-metade-do-ano-do-magazine-luiza-tem-ate-50-off-em-diversos-produtos-confira-destaques.htm",
+        "error": "curl: (28) Resolving timed out after 8001 milliseconds\n"
+      },
+      {
+        "url": "https://www.uol.com.br/guia-de-compras/ultimas-noticias/2025/10/28/celular-dobravel-makes-eudora-e-mais-confira-ofertas-da-semana.htm",
+        "error": "curl: (28) Resolving timed out after 8000 milliseconds\n"
+      },
+      {
+        "url": "https://www1.folha.uol.com.br/mercado/2026/03/ministros-do-g7-seguram-reservas-de-petroleo-e-pedem-avaliacao-do-cenario-a-agencia-de-energia.shtml",
+        "error": "Página declara conteúdo restrito."
+      },
+      {
+        "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/03/operacao-desarticula-esquema-de-desvio-de-remedios-de-sus-na-grande-sp-prejuizo-e-de-r-1-milhao.shtml",
+        "error": "curl: (28) Operation timed out after 25001 milliseconds with 130436 bytes received\n"
+      },
+      {
+        "url": "https://www1.folha.uol.com.br/colunas/ilona-szabo/2026/03/guerra-no-ira-mostra-urgencia-da-transicao-energetica-e-ecologica.shtml",
+        "error": "Página declara conteúdo restrito."
+      },
+      {
+        "url": "https://www1.folha.uol.com.br/mercado/2026/08/inflacao-perde-ritmo-mas-ainda-preocupa-bc-e-investidores-dizem-analistas.shtml",
+        "error": "Página declara conteúdo restrito."
+      },
+      {
+        "url": "https://www1.folha.uol.com.br/colunas/voto-a-voto/2026/10/lula-contra-a-matematica-no-2o-turno.shtml",
+        "error": "curl: (28) Resolving timed out after 8001 milliseconds\n"
+      }
+    ],
+    "excluded_outside_period": 0,
+    "sampling_interval_days": 7,
+    "exhaustive": false,
+    "candidate_processing_finished": true,
+    "snapshot_documents": 56,
+    "snapshot_sha256": "4774682976ace8f63c783707dc259aaff9192fe50cd0c807ff45ae1f673689e5"
+  },
+  "by_month": {
+    "2025-11": 3,
+    "2025-12": 4,
+    "2026-01": 3,
+    "2026-02": 3,
+    "2026-03": 7,
+    "2026-04": 8,
+    "2026-05": 9,
+    "2026-06": 3,
+    "2026-07": 4,
+    "2026-08": 7,
+    "2026-09": 4,
+    "2026-10": 1
+  },
+  "by_publisher": {
+    "jornaldebrasilia.com.br": 12,
+    "dgabc.com.br": 10,
+    "infomoney.com.br": 8,
+    "veja.abril.com.br": 5,
+    "sapo.pt": 2,
+    "rondoniadinamica.com": 2,
+    "folhavitoria.com.br": 1,
+    "tribunaonline.com.br": 1,
+    "reporterdiario.com.br": 1,
+    "emtempo.com.br": 1,
+    "diariodolitoral.com.br": 1,
+    "agroemcampo.ig.com.br": 1,
+    "dw.com": 1,
+    "odia.ig.com.br": 1,
+    "jornalcruzeiro.com.br": 1,
+    "meionews.com": 1,
+    "diariodosudoeste.com.br": 1,
+    "jornalfolhadoestado.com": 1,
+    "nenoticias.com.br": 1,
+    "brasil247.com": 1,
+    "conexaoto.com.br": 1,
+    "conjur.com.br": 1,
+    "tvbrasil.ebc.com.br": 1
+  },
+  "publication_min": "2025-11-04",
+  "publication_max": "2026-10-13",
+  "exact_text_duplicates": 0,
+  "rejection_categories": {
+    "Agência Brasil/ABR excluída": 10,
+    "Fora do tema pelo título": 77,
+    "Possível texto incompleto": 8,
+    "Publicação explícita ausente": 38,
+    "Corpo ausente, curto ou não identificado": 23,
+    "Falha de acesso/rede ou domínio suspenso": 31,
+    "Conteúdo restrito": 5,
+    "Restrição ou falha em robots.txt": 4
+  },
+  "snapshot": "dados_noticias/gdelt_12_meses/noticias_gdelt.jsonl"
+}

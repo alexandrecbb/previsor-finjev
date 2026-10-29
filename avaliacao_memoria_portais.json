@@ -1,0 +1,1207 @@
+{
+  "exploratory": true,
+  "signature": "1309b82597727c65",
+  "warmup_days": 90,
+  "planned_n": 24,
+  "completed_pairs": 24,
+  "text_limit": 4000,
+  "sample_ids": [
+    "034ab7eb6091fb7b2f826cf8ccafff328a4ac65c0f6bd26d7f86d58e8bbf7b6f",
+    "0275bfea15cc3b987d892f75bdf25c9dd8562e416ed0f6fc6b260e588c2bd3d2",
+    "04758aadff9e10d8371c00dfcea08a50da223b21ff0edb8f2f3db0dc62e304f3",
+    "08fec10d8db260ecb3dcc2790d4e89edf6149971e7c7bb3a050bffaaf472a4e7",
+    "32e4e89d04daead5d23c5ba3a275a85a64f9885e2be6b66d8e60bba30b051fb0",
+    "099c53598190d7e89d97b3c965a67fad3f460bf0e718378d09a169b6d54edd02",
+    "001e0ea3a4d24c1b679ef261129c3a179e3ff43df0a7974307396fa855f8e85e",
+    "03cb47c471c5de69c2b63a81c235cc8bb6e1d2a5f29c8b4772b7cd53886470d0",
+    "72464a3cc8550856662690f5dcb5014964374732549939e03c054c7d94fe64ea",
+    "04f08ad0edb4d5c8c0940fd1fdaade160ce8b7daa61abc266c46f128d766ecc5",
+    "0562ae131a5d06ccaa17f974268c5143028cb44f2430958d051e9fdaf1934817",
+    "0293c0ef83db720944a87225613dbd81d851775a3eaae3a4954b43ffdc448d95",
+    "2a0aab8b26099d51a4e24cfd28634abf344ca56296820928e493fc23b3a6e765",
+    "06166a7206d87ad5edc89e05f98b84a524569435681ccebd8047e0ab512a6835",
+    "1733d67cdfd796b66fda3cc70d5776247a5d631bb65d1f8ad5d472eaa446e001",
+    "00294ff841a8778175018294a4947c61a60513f0be0d3b738276c7169d3a27ab",
+    "50b4b6f61a8326ce98cf0cc5cd97ccd03367290605239eb5525b8b217a8c76f4",
+    "f35d483be57afe40ff909be83b84230c3d999cf066ff6ba2902d9d4a3802ddbe",
+    "69ef687d0ff656d71193e9e9d3608a1a1b5fa7e548822d1a117c756ea9382bee",
+    "aca3518fbb6e18f279853e9da70cf150637be8544b158e08d515fda7639be611",
+    "ad851674cfb57497d873f12ac5d18615537bd05252eea9ca44173c8410d4459e",
+    "da9f760b33a5e465dcb4621deaf0ec49303a9115c37801314c9eda60b8abd78d",
+    "6240d3317331c75b54771374bf52e2d049bca2e741fa7d2e8ed1d27735cc9165",
+    "f665a2f222a0eb924ab32a279d6fc5a7c53aa110a28cedc52af92a6119d59244"
+  ],
+  "errors": [],
+  "metrics": {
+    "without_memory": {
+      "n_total": 24,
+      "n_answered": 14,
+      "n_abstained": 10,
+      "coverage": 0.5833333333333334,
+      "accuracy_answered": 0.6428571428571429,
+      "balanced_accuracy_answered": 0.625,
+      "wilson_95_answered": [
+        0.38764423103907397,
+        0.8365526824644587
+      ],
+      "correct_over_all": 0.375,
+      "up_outcomes": 13
+    },
+    "with_memory": {
+      "n_total": 24,
+      "n_answered": 19,
+      "n_abstained": 5,
+      "coverage": 0.7916666666666666,
+      "accuracy_answered": 0.631578947368421,
+      "balanced_accuracy_answered": 0.6277777777777778,
+      "wilson_95_answered": [
+        0.41039533164803066,
+        0.8085048725486492
+      ],
+      "correct_over_all": 0.5,
+      "up_outcomes": 13
+    }
+  },
+  "paired_metrics": {
+    "without_memory": {
+      "n_total": 24,
+      "n_answered": 14,
+      "n_abstained": 10,
+      "coverage": 0.5833333333333334,
+      "accuracy_answered": 0.6428571428571429,
+      "balanced_accuracy_answered": 0.625,
+      "wilson_95_answered": [
+        0.38764423103907397,
+        0.8365526824644587
+      ],
+      "correct_over_all": 0.375,
+      "up_outcomes": 13
+    },
+    "with_memory": {
+      "n_total": 24,
+      "n_answered": 19,
+      "n_abstained": 5,
+      "coverage": 0.7916666666666666,
+      "accuracy_answered": 0.631578947368421,
+      "balanced_accuracy_answered": 0.6277777777777778,
+      "wilson_95_answered": [
+        0.41039533164803066,
+        0.8085048725486492
+      ],
+      "correct_over_all": 0.5,
+      "up_outcomes": 13
+    }
+  },
+  "both_answered_metrics": {
+    "without_memory": {
+      "n_total": 14,
+      "n_answered": 14,
+      "n_abstained": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.6428571428571429,
+      "balanced_accuracy_answered": 0.625,
+      "wilson_95_answered": [
+        0.38764423103907397,
+        0.8365526824644587
+      ],
+      "correct_over_all": 0.6428571428571429,
+      "up_outcomes": 6
+    },
+    "with_memory": {
+      "n_total": 14,
+      "n_answered": 14,
+      "n_abstained": 0,
+      "coverage": 1.0,
+      "accuracy_answered": 0.7142857142857143,
+      "balanced_accuracy_answered": 0.7083333333333333,
+      "wilson_95_answered": [
+        0.4535091567010681,
+        0.8827862135542308
+      ],
+      "correct_over_all": 0.7142857142857143,
+      "up_outcomes": 6
+    }
+  },
+  "always_up_planned": {
+    "n_total": 24,
+    "n_answered": 24,
+    "n_abstained": 0,
+    "coverage": 1.0,
+    "accuracy_answered": 0.5416666666666666,
+    "balanced_accuracy_answered": 0.5,
+    "wilson_95_answered": [
+      0.3507486535891948,
+      0.72108666268789
+    ],
+    "correct_over_all": 0.5416666666666666,
+    "up_outcomes": 13
+  },
+  "always_up_paired": {
+    "n_total": 24,
+    "n_answered": 24,
+    "n_abstained": 0,
+    "coverage": 1.0,
+    "accuracy_answered": 0.5416666666666666,
+    "balanced_accuracy_answered": 0.5,
+    "wilson_95_answered": [
+      0.3507486535891948,
+      0.72108666268789
+    ],
+    "correct_over_all": 0.5416666666666666,
+    "up_outcomes": 13
+  },
+  "always_up_both_answered": {
+    "n_total": 14,
+    "n_answered": 14,
+    "n_abstained": 0,
+    "coverage": 1.0,
+    "accuracy_answered": 0.42857142857142855,
+    "balanced_accuracy_answered": 0.5,
+    "wilson_95_answered": [
+      0.21380798904474121,
+      0.6740935542034926
+    ],
+    "correct_over_all": 0.42857142857142855,
+    "up_outcomes": 6
+  },
+  "results": [
+    {
+      "id": "034ab7eb6091fb7b2f826cf8ccafff328a4ac65c0f6bd26d7f86d58e8bbf7b6f",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-01-27T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:04.424430+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.33,
+          "down": 0.18,
+          "abstain": 0.49
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "034ab7eb6091fb7b2f826cf8ccafff328a4ac65c0f6bd26d7f86d58e8bbf7b6f",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-01-27T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:05.883361+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.37,
+          "down": 0.31,
+          "abstain": 0.32
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "0275bfea15cc3b987d892f75bdf25c9dd8562e416ed0f6fc6b260e588c2bd3d2",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-01-31T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:06.700371+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.27,
+          "down": 0.4,
+          "abstain": 0.33
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "0275bfea15cc3b987d892f75bdf25c9dd8562e416ed0f6fc6b260e588c2bd3d2",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-01-31T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:08.295776+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.21,
+          "down": 0.57,
+          "abstain": 0.22
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "04758aadff9e10d8371c00dfcea08a50da223b21ff0edb8f2f3db0dc62e304f3",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-02-06T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:09.126169+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.27,
+          "down": 0.31,
+          "abstain": 0.42
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "04758aadff9e10d8371c00dfcea08a50da223b21ff0edb8f2f3db0dc62e304f3",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-02-06T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:10.728464+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.22,
+          "down": 0.38,
+          "abstain": 0.39999999999999997
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "08fec10d8db260ecb3dcc2790d4e89edf6149971e7c7bb3a050bffaaf472a4e7",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-02-12T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:11.452123+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.51,
+          "down": 0.12,
+          "abstain": 0.37
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "08fec10d8db260ecb3dcc2790d4e89edf6149971e7c7bb3a050bffaaf472a4e7",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-02-12T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:13.139165+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.65,
+          "down": 0.12,
+          "abstain": 0.23
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "32e4e89d04daead5d23c5ba3a275a85a64f9885e2be6b66d8e60bba30b051fb0",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-02-21T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:13.830074+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.36,
+          "down": 0.34,
+          "abstain": 0.3
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "32e4e89d04daead5d23c5ba3a275a85a64f9885e2be6b66d8e60bba30b051fb0",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-02-21T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:15.544252+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.44,
+          "down": 0.29,
+          "abstain": 0.27
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "099c53598190d7e89d97b3c965a67fad3f460bf0e718378d09a169b6d54edd02",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-02-27T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:16.357827+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.18,
+          "down": 0.35,
+          "abstain": 0.47
+        },
+        "basis": "insufficient"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "099c53598190d7e89d97b3c965a67fad3f460bf0e718378d09a169b6d54edd02",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-02-27T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:18.129316+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.17,
+          "down": 0.48,
+          "abstain": 0.35
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "001e0ea3a4d24c1b679ef261129c3a179e3ff43df0a7974307396fa855f8e85e",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-03-05T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:18.970060+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.28,
+          "down": 0.3,
+          "abstain": 0.42
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "001e0ea3a4d24c1b679ef261129c3a179e3ff43df0a7974307396fa855f8e85e",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-03-05T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:20.773459+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.47,
+          "down": 0.19,
+          "abstain": 0.34
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "03cb47c471c5de69c2b63a81c235cc8bb6e1d2a5f29c8b4772b7cd53886470d0",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-03-11T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:21.575210+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.17,
+          "down": 0.49,
+          "abstain": 0.34
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "03cb47c471c5de69c2b63a81c235cc8bb6e1d2a5f29c8b4772b7cd53886470d0",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-03-11T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:23.391103+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.24,
+          "down": 0.53,
+          "abstain": 0.23
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "72464a3cc8550856662690f5dcb5014964374732549939e03c054c7d94fe64ea",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-03-17T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:24.200137+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.17,
+          "down": 0.42,
+          "abstain": 0.41
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "72464a3cc8550856662690f5dcb5014964374732549939e03c054c7d94fe64ea",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-03-17T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:26.124983+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.42,
+          "down": 0.27,
+          "abstain": 0.31
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "04f08ad0edb4d5c8c0940fd1fdaade160ce8b7daa61abc266c46f128d766ecc5",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-03-21T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:26.781732+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.05,
+          "down": 0.6,
+          "abstain": 0.35
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "04f08ad0edb4d5c8c0940fd1fdaade160ce8b7daa61abc266c46f128d766ecc5",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-03-21T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:28.836773+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.06,
+          "down": 0.75,
+          "abstain": 0.19
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "0562ae131a5d06ccaa17f974268c5143028cb44f2430958d051e9fdaf1934817",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-03-27T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:29.646274+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.34,
+          "down": 0.22,
+          "abstain": 0.44
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "0562ae131a5d06ccaa17f974268c5143028cb44f2430958d051e9fdaf1934817",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-03-27T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:31.722886+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.28,
+          "down": 0.37,
+          "abstain": 0.35
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "0293c0ef83db720944a87225613dbd81d851775a3eaae3a4954b43ffdc448d95",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-04-02T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:32.551550+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.57,
+          "down": 0.1,
+          "abstain": 0.33
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "0293c0ef83db720944a87225613dbd81d851775a3eaae3a4954b43ffdc448d95",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-04-02T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:34.764273+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.6,
+          "down": 0.13,
+          "abstain": 0.27
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "2a0aab8b26099d51a4e24cfd28634abf344ca56296820928e493fc23b3a6e765",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-04-11T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:35.554047+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.54,
+          "down": 0.16,
+          "abstain": 0.3
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "2a0aab8b26099d51a4e24cfd28634abf344ca56296820928e493fc23b3a6e765",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-04-11T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:37.774542+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.46,
+          "down": 0.19,
+          "abstain": 0.35
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "06166a7206d87ad5edc89e05f98b84a524569435681ccebd8047e0ab512a6835",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-04-17T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:38.633669+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.56,
+          "down": 0.11,
+          "abstain": 0.33
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "06166a7206d87ad5edc89e05f98b84a524569435681ccebd8047e0ab512a6835",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-04-17T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 1,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:41.022627+00:00",
+        "direction": "up",
+        "probabilities": {
+          "up": 0.4,
+          "down": 0.29,
+          "abstain": 0.31
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "1733d67cdfd796b66fda3cc70d5776247a5d631bb65d1f8ad5d472eaa446e001",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-04-24T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:41.844631+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.14,
+          "down": 0.44,
+          "abstain": 0.42
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "1733d67cdfd796b66fda3cc70d5776247a5d631bb65d1f8ad5d472eaa446e001",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-04-24T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:44.270656+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.09,
+          "down": 0.66,
+          "abstain": 0.25
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "00294ff841a8778175018294a4947c61a60513f0be0d3b738276c7169d3a27ab",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-04-30T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:45.147907+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.13,
+          "down": 0.28,
+          "abstain": 0.59
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "00294ff841a8778175018294a4947c61a60513f0be0d3b738276c7169d3a27ab",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-04-30T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:47.438070+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.23,
+          "down": 0.34,
+          "abstain": 0.43
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "50b4b6f61a8326ce98cf0cc5cd97ccd03367290605239eb5525b8b217a8c76f4",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-05-09T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:48.355369+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.05,
+          "down": 0.52,
+          "abstain": 0.43
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "50b4b6f61a8326ce98cf0cc5cd97ccd03367290605239eb5525b8b217a8c76f4",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-05-09T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:50.899124+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.1,
+          "down": 0.54,
+          "abstain": 0.36
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "f35d483be57afe40ff909be83b84230c3d999cf066ff6ba2902d9d4a3802ddbe",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-06-03T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:51.709801+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.1,
+          "down": 0.63,
+          "abstain": 0.27
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "f35d483be57afe40ff909be83b84230c3d999cf066ff6ba2902d9d4a3802ddbe",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-06-03T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:54.485246+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.33,
+          "down": 0.37,
+          "abstain": 0.3
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "69ef687d0ff656d71193e9e9d3608a1a1b5fa7e548822d1a117c756ea9382bee",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-06-30T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:55.292083+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.37,
+          "down": 0.21,
+          "abstain": 0.42
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "69ef687d0ff656d71193e9e9d3608a1a1b5fa7e548822d1a117c756ea9382bee",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-06-30T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:58.481659+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.31,
+          "down": 0.27,
+          "abstain": 0.42
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "aca3518fbb6e18f279853e9da70cf150637be8544b158e08d515fda7639be611",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-07-22T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:10:59.276884+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.24,
+          "down": 0.35,
+          "abstain": 0.41000000000000003
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "aca3518fbb6e18f279853e9da70cf150637be8544b158e08d515fda7639be611",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-07-22T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:02.544774+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.19,
+          "down": 0.52,
+          "abstain": 0.29
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "ad851674cfb57497d873f12ac5d18615537bd05252eea9ca44173c8410d4459e",
+      "arm": "without_memory",
+      "source": "infomoney",
+      "cutoff": "2026-08-14T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:03.383699+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.06,
+          "down": 0.49,
+          "abstain": 0.45
+        },
+        "basis": "insufficient"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "ad851674cfb57497d873f12ac5d18615537bd05252eea9ca44173c8410d4459e",
+      "arm": "with_memory",
+      "source": "infomoney",
+      "cutoff": "2026-08-14T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:07.079399+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.18,
+          "down": 0.56,
+          "abstain": 0.26
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "da9f760b33a5e465dcb4621deaf0ec49303a9115c37801314c9eda60b8abd78d",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-09-05T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:07.908005+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.22,
+          "down": 0.23,
+          "abstain": 0.55
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "da9f760b33a5e465dcb4621deaf0ec49303a9115c37801314c9eda60b8abd78d",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-09-05T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:11.679736+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.25,
+          "down": 0.37,
+          "abstain": 0.38
+        },
+        "basis": "differences"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "6240d3317331c75b54771374bf52e2d049bca2e741fa7d2e8ed1d27735cc9165",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-10-01T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:12.482977+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.19,
+          "down": 0.38,
+          "abstain": 0.43
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "6240d3317331c75b54771374bf52e2d049bca2e741fa7d2e8ed1d27735cc9165",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-10-01T03:00:00+00:00",
+      "outcome": 1,
+      "prediction": null,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:16.592784+00:00",
+        "direction": "abstain",
+        "probabilities": {
+          "up": 0.29,
+          "down": 0.27,
+          "abstain": 0.44
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    },
+    {
+      "id": "f665a2f222a0eb924ab32a279d6fc5a7c53aa110a28cedc52af92a6119d59244",
+      "arm": "without_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-10-23T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:17.459171+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.06,
+          "down": 0.68,
+          "abstain": 0.26
+        },
+        "basis": "context"
+      },
+      "n_memories": 0
+    },
+    {
+      "id": "f665a2f222a0eb924ab32a279d6fc5a7c53aa110a28cedc52af92a6119d59244",
+      "arm": "with_memory",
+      "source": "moneytimes",
+      "cutoff": "2026-10-23T03:00:00+00:00",
+      "outcome": 0,
+      "prediction": 0,
+      "decision": {
+        "model": "jev-1.14.0",
+        "version": "ibov-memory-context-v1",
+        "generated_at": "2026-10-28T20:11:21.940958+00:00",
+        "direction": "down",
+        "probabilities": {
+          "up": 0.06,
+          "down": 0.76,
+          "abstain": 0.18
+        },
+        "basis": "context"
+      },
+      "n_memories": 3
+    }
+  ],
+  "limitations": [
+    "Textos atuais recuperados hoje, sem garantia da versão original.",
+    "Pré-treinamento Jev pode incluir eventos posteriores aos cortes.",
+    "Amostra pequena e seleção por disponibilidade das fontes.",
+    "Reflexões atuais não são retroagidas; piloto não mede aprendizado por reflexões históricas.",
+    "Intervalo de Wilson descritivo; não corrige dependência de mercado."
+  ],
+  "documents_collected": 9590,
+  "episodes_prepared": 9590,
+  "excluded_documents": [],
+  "experiment": {
+    "model": "jev-1.14.0",
+    "horizon": 3,
+    "sources": [
+      "infomoney",
+      "moneytimes"
+    ],
+    "warmup_days": 90,
+    "sample_size": 24,
+    "max_requests": 48,
+    "run_date": "2026-10-28"
+  },
+  "sha256": {
+    "dados_noticias/avaliacao_portais_90dias/evaluation_snapshot.json": "ba40966f1eb29ed2d22cb83a053793c4930946a453f0f865aba1ef1dd8fefcc9",
+    "dados_noticias/historico/precos_ibov.csv": "4fbd07623ff14b04732c360963e9802339f92221cb5bab9547e7e894d3b4acc0",
+    "ibov/avaliacao_noticias.py": "5405fb14ad88267be6fe031707928126317691c1e58a178f7783190fbc91470a",
+    "ibov/memoria.py": "ca7ce075e324b15642a4e9975c7c3ef3b37d8d85686f22e93852280bf128e101",
+    "ibov/decisao_noticias.py": "ab3bd886e81303b4a7783910abdbd25f66d5c7d9f64c6ff5552ab03ef9d5c46b",
+    "avaliar_historico_noticias.py": "e4bc1522479d2c21963bab14a7071eb9e3a1ecaf43e9a569e769052fdd006bc7"
+  }
+}
